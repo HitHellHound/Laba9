@@ -11,9 +11,14 @@ import helper.UserListHelper;
 
 public class AddUser extends SimpleTagSupport {
     private User user;
+    private String captchaName;
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public void setCaptchaName(String captchaName){
+        this.captchaName = captchaName;
     }
 
     public void doTag() throws JspException, IOException {

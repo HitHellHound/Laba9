@@ -15,29 +15,37 @@
 		<form id="mform" action="doRegister.jsp" method="post">
 			<table>
 				<%-- body="0" cellspacing="0" cellpadding="10">--%>
-				<tr>
-					<td>Логин:</td>
-					<td><input type="text" name="login" value="${sessionScope.userData.login}"></td>
-				</tr>
-				<tr>
-					<td>Пароль:</td>
-					<td><input type="password" name="password" value=""></td>
-				</tr>
-				<tr>
-					<td>Имя:</td>
-					<td><input type="text" name="name" value="${sessionScope.userData.name}"></td>
-				</tr>
-				<tr>
-					<td>Email:</td>
-					<td><input type="text" name="email" value="${sessionScope.userData.email}"></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td>
+					<tr>
+						<td>Логин:</td>
+						<td><input type="text" name="login" value="${sessionScope.userData.login}"></td>
+					</tr>
+					<tr>
+						<td>Пароль:</td>
+						<td><input type="password" name="password" value=""></td>
+					</tr>
+					<tr>
+						<td>Имя:</td>
+						<td><input type="text" name="name" value="${sessionScope.userData.name}"></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="email" value="${sessionScope.userData.email}"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><img src="${applicationScope.currentCaptcha.fileWay}" width="200" height="50" alt="sho"></td>
+					</tr>
+					<tr>
+						<td>CAPTCHA:</td>
+						<td><input type="text" name="captchaName" value=""></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
 						<input type="submit" value="Зарегистрироваться">
 						<input type="button" value="Отменить" onclick="window.location='<c:url value="/index.jsp"/>';">
-					</td>
-				</tr>
+						</td>
+					</tr>
 			</table>
 		</form>
 	</my:layout1Column>

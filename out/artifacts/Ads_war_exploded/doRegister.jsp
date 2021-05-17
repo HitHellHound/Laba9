@@ -6,7 +6,10 @@
 <c:remove var="userData" />
 <jsp:useBean id="userData" class="entity.User" scope="session" />
 <jsp:setProperty name="userData" property="*" />
-<ad:addUser user="${userData}" />
+<ad:checkCaptcha captchaName="${param.captchaName}"/>
+<c:if test="${sessionScope.errorMessage==null}">
+	<ad:addUser user="${userData}"/>
+</c:if>
 <c:choose>
 	<c:when test="${sessionScope.errorMessage==null}">
 		<c:remove var="userData" scope="session" />

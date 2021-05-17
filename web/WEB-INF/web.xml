@@ -35,6 +35,15 @@
         <url-pattern>*.png</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>servlet.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/test.do</url-pattern>
+    </servlet-mapping>
+    
     <jsp-config>
         <taglib>
             <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>

@@ -23,6 +23,17 @@
         </attribute>
     </tag>
     <tag>
+        <name>checkCaptcha</name>
+        <tag-class>tag.CheckCaptcha</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>CAPTCHA name</description>
+            <name>captchaName</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
         <description>??????????????? ????????????</description>
         <name>login</name>
         <tag-class>tag.Login</tag-class>
