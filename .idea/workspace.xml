@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="024cd87e-5635-4fa1-a8af-5d8895fa0382" name="Default Changelist" comment="" />
+    <list default="true" id="024cd87e-5635-4fa1-a8af-5d8895fa0382" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/AdListHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/UserListHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servlet/StartupServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ads.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ads.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1sfdHXAEEsU5svop0ub3HiMej0n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,8 +34,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -124,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621267490653</updated>
-      <workItem from="1621267500416" duration="1317000" />
+      <workItem from="1621267500416" duration="2500000" />
     </task>
     <servers />
   </component>
@@ -136,5 +151,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621267544201" />
+    <state x="1130" y="273" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1621270198270">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1130" y="273" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621270198270" />
+    <state x="880" y="93" key="SettingsEditor" timestamp="1621270202154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621270202154" />
   </component>
 </project>
