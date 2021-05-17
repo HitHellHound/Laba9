@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024cd87e-5635-4fa1-a8af-5d8895fa0382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/AdListHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/UserListHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/StartupServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ads.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tag/AddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tag/GetAds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/AdListHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/AdListHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/UserListHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/UserListHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/StartupServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/StartupServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621267490653</updated>
-      <workItem from="1621267500416" duration="2500000" />
+      <workItem from="1621267500416" duration="2854000" />
     </task>
     <servers />
   </component>

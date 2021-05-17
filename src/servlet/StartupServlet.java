@@ -13,6 +13,7 @@ import helper.UserListHelper;
 @WebServlet(name = "StartupServlet")
 public class StartupServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
+
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
         UserList userList = UserListHelper.readUserList(getServletContext());

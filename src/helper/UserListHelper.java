@@ -8,7 +8,9 @@ import javax.servlet.ServletContext;
 import entity.UserList;
 public abstract class UserListHelper {
     private static final String USERS_FILENAME = "WEB-INF/users.dat";
+
     private static String USERS_PATH = null;
+
     public static UserList readUserList(ServletContext context) {
         try {
             USERS_PATH = context.getRealPath(USERS_FILENAME);

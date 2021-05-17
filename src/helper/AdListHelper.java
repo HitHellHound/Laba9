@@ -8,6 +8,7 @@ import javax.servlet.ServletContext;
 import entity.AdList;
 public abstract class AdListHelper {
     private static final String ADS_FILENAME = "WEB-INF/ads.dat";
+
     private static String ADS_PATH = null;
 
     public static AdList readAdList(ServletContext context) {
