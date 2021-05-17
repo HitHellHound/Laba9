@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="024cd87e-5635-4fa1-a8af-5d8895fa0382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/standard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/errorMessage.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/c.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/fmt.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/fn.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/sql.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/x.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ads.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ads.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/adListing.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/deleteButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/editButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/layout1Column.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/layout2Columns.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/loginForm.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/newButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/registerButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/ad.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/cabinet.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/doDeleteAd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/doLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/doLogout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/doRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/doUpdateAd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/updateAd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/viewAd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,6 +64,9 @@
       <recent name="D:\JavaProjects\Ads\web\WEB-INF\lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProjects\Ads\web\static" />
+      <recent name="D:\JavaProjects\Ads\web" />
+      <recent name="D:\JavaProjects\Ads\web\WEB-INF\tags" />
       <recent name="D:\JavaProjects\Ads\src" />
     </key>
   </component>
@@ -155,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621267490653</updated>
-      <workItem from="1621267500416" duration="8428000" />
+      <workItem from="1621267500416" duration="8966000" />
     </task>
     <servers />
   </component>
